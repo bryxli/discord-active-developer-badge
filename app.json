@@ -1,0 +1,21 @@
+{
+  "name": "/create (TypeScript)",
+  "description": "Deploy a slash-create server for Discord interactions.",
+  "repository": "https://github.com/Snazzah/slash-create-template/tree/typescript",
+  "logo": "https://slash-create.js.org/static/logo-nomargin.png",
+  "scripts": {
+    "postdeploy": "npx slash-up sync"
+  },
+  "env": {
+    "DISCORD_APP_ID": {
+      "description": "The application ID of the Discord app"
+    },
+    "DISCORD_PUBLIC_KEY": {
+      "description": "The public key of the Discord app"
+    },
+    "DISCORD_BOT_TOKEN": {
+      "description": "The bot token of the Discord app"
+    }
+  },
+  "keywords": ["node", "fastify", "discord", "interactions"]
+}
