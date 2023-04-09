@@ -11,7 +11,8 @@ export default class HelloCommand extends SlashCommand {
           name: 'food',
           description: 'What food do you like?'
         }
-      ]
+      ],
+      guildIDs: ['1016953904644247632']
     });
   }
 
