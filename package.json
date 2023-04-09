@@ -5,8 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "lint": "npx eslint --ext .ts ./src",
-    "lint:fix": "npx eslint --ext .ts ./src --fix"
+    "eslint": "npx eslint --ext .ts ./src",
+    "eslint:fix": "npx eslint --ext .ts ./src --fix"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
