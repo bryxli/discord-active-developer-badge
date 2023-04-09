@@ -1,18 +1,14 @@
 {
-  "name": "slash-create-template",
+  "name": "placeholder",
   "version": "1.0.0",
-  "description": "A template for slash-create",
-  "main": "dist/index.js",
+  "description": "placeholder",
+  "main": "src/index.ts",
   "scripts": {
-    "sync": "slash-up sync",
-    "sync:dev": "slash-up sync -e development",
     "start": "ts-node src/index.ts",
-    "build": "npx tsc",
     "lint": "npx eslint --ext .ts ./src",
     "lint:fix": "npx eslint --ext .ts ./src --fix"
   },
   "dependencies": {
-    "cat-loggr": "^1.1.0",
     "dotenv": "^8.2.0",
     "eris": "^0.17.2",
     "slash-create": "^5.2.0"
