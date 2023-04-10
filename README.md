@@ -86,16 +86,24 @@ Write down the application ID, public key, and bot token. You will need these la
 
 ### UptimeRobot
 
-1. Create a new monitor on UptimeRobot
-
-    ![Monitor](public/new_monitor.png)
-
-    The URL can be found on Replit after running the bot in Webview
+1. Find the Repl URL on Replit
 
     ![URL](public/webview.png)
 
-### The Badge
+2. Create a new monitor on UptimeRobot
 
-1. Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
+    ![Monitor](public/new_monitor.png)
 
-    ![Claimed](public/claimed.png)
+## The Badge
+
+### Interacting with the Bot
+
+You should have already invited the bot to your **community** server from earlier. In a text channel, send the command `/about`. Make sure to send this command every month.
+
+![Interaction](public/interaction.png)
+
+### Claiming
+
+Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
+
+![Claimed](public/claimed.png)
