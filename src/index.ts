@@ -28,4 +28,5 @@ client.connect();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}#${client.user.discriminator}`);
+  client.editStatus('idle', { name: '/about', type: 0 });
 });
