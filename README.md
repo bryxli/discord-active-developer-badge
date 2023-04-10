@@ -21,21 +21,21 @@ There is no programming required to set this up. Simply create the bot and host 
 
 ### Discord
 
-1. Create a new Discord Application
+1. Create a new Discord Application.
 
     ![App](public/create_application.png)
 
-2. Create a new Bot in Settings &rarr; Bot
+2. Create a new Bot in Settings &rarr; Bot.
 
     ![Bot](public/create_bot.png)
 
-3. Generate Discord invite link through Settings &rarr; OAuth2 &rarr; URL Generator
+3. Generate Discord invite link through Settings &rarr; OAuth2 &rarr; URL Generator.
 
     ![Invite](public/scopes.png)
 
     The URL can be found on the bottom of the page under `Generated URL`. Invite the Discord bot to your **community** server. The server must be a community server to ensure that you get the active developer badge.
 
-    The generated URL will be of the form `https://discord.com/api/oauth2/authorize?client_id={DISCORD_APP_ID}&permissions=0&scope=applications.commands%20bot`
+    The generated URL will be of the form `https://discord.com/api/oauth2/authorize?client_id={DISCORD_APP_ID}&permissions=0&scope=applications.commands%20bot`.
 
 Write down the application ID, public key, and bot token. You will need these later when configuring on Replit.
 ```
@@ -50,29 +50,29 @@ Write down the application ID, public key, and bot token. You will need these la
 
 ### Replit
 
-1. Create a new Repl on Replit
+1. Create a new Repl on Replit.
 
     ![Repl](public/create_repl.png)
 
-2. Import the Repl code from GitHub
+2. Import the Repl code from GitHub.
 
     ![Import](public/import_from_github.png)
 
-3. Enter `github.com/bryxli/discord-active-developer-badge` as GitHub URL
+3. Enter `github.com/bryxli/discord-active-developer-badge` as GitHub URL.
 
     ![GitHubURL](public/enter_github_url.png)
 
-4. Click Import from GitHub
+4. Click Import from GitHub.
 
 5. Replit will now ask for the command to run the bot, keeping the default of `npm run start` is okay.
 
     ![Configure](public/configure_run.png)
 
-6. Just to make sure everything was set up properly run `yarn`
+6. Just to make sure everything was set up properly run `yarn`.
 
     ![Dependencies](public/dependencies.png)
 
-7. Create a new secret using the Secrets tool
+7. Create a new secret using the Secrets tool.
 
     ![Secret](public/secrets.png)
 
@@ -80,17 +80,17 @@ Write down the application ID, public key, and bot token. You will need these la
 
     ![JSON](public/json.png)
 
-9. Run the bot
+9. Run the bot.
 
     ![Run](public/run.png)
 
 ### UptimeRobot
 
-1. Find the Repl URL on Replit
+1. Find the Repl URL on Replit.
 
     ![URL](public/webview.png)
 
-2. Create a new monitor on UptimeRobot
+2. Create a new monitor on UptimeRobot.
 
     ![Monitor](public/new_monitor.png)
 
