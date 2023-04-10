@@ -8,17 +8,35 @@ An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
-### Prerequisites
+### Useful Links
 
-* Discord Application
-* Replit account
-* UptimeRobot account
+* [Discord Application](https://discord.com/developers/applications)
+* [Replit](https://replit.com/)
+* [UptimeRobot](https://uptimerobot.com/dashboard?ref=website-header#mainDashboard)
 
-### Instructions
+### Discord
 
-1. Create a new Repl on [Replit](https://replit.com/)
+1. Create a new Discord Application
 
-    ![Create](public/create_repl.png)
+    ![App](public/create_application.png)
+
+2. Create a new Bot in Settings &rarr; Bot
+
+    ![Bot](public/create_bot.png)
+
+3. Generate Discord invite link through Settings &rarr; OAuth2 &rarr; URL Generator
+
+    ![Invite](public/scopes.png)
+
+    The URL can be found on the bottom of the page under `Generated URL`. Invite the Discord bot to your **community** server. The server must be a community server to ensure that you get the active developer badge.
+
+Write down the application ID, public key, and bot token. You will need these later when configuring on Replit.
+
+### Replit
+
+1. Create a new Repl on Replit
+
+    ![Repl](public/create_repl.png)
 
 2. Import the Repl code from GitHub
 
@@ -42,7 +60,7 @@ An in-depth paragraph about your project and overview of use.
 
     ![Secret](public/secrets.png)
 
-8. Enter secret information using [raw JSON](/secret.json)
+8. Enter secret information using [raw JSON](/secret.json) with the secrets obtained earlier.
 
     ![JSON](public/json.png)
 
@@ -50,7 +68,9 @@ An in-depth paragraph about your project and overview of use.
 
     ![Run](public/run.png)
 
-10. Create a new monitor on [UptimeRobot](https://uptimerobot.com/dashboard?ref=website-header#mainDashboard)
+### UptimeRobot
+
+1. Create a new monitor on UptimeRobot
 
     ![Monitor](public/new_monitor.png)
 
@@ -58,6 +78,8 @@ An in-depth paragraph about your project and overview of use.
 
     ![URL](public/webview.png)
 
-11. Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
+### The Badge
+
+1. Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
 
     ![Claimed](public/claimed.png)
