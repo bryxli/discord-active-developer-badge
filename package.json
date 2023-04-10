@@ -1,7 +1,7 @@
 {
-  "name": "placeholder",
+  "name": "discord-active-developer-badge",
   "version": "1.0.0",
-  "description": "placeholder",
+  "description": "Simple Discord bot to get the Discord \"Active Developer Badge\" and maintain eligibility.",
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
