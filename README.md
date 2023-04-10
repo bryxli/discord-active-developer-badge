@@ -35,7 +35,18 @@ There is no programming required to set this up. Simply create the bot and host 
 
     The URL can be found on the bottom of the page under `Generated URL`. Invite the Discord bot to your **community** server. The server must be a community server to ensure that you get the active developer badge.
 
+    The generated URL will be of the form `https://discord.com/api/oauth2/authorize?client_id={DISCORD_APP_ID}&permissions=0&scope=applications.commands%20bot`
+
 Write down the application ID, public key, and bot token. You will need these later when configuring on Replit.
+```
+{
+    "DISCORD_APP_ID": "",
+    "DISCORD_PUBLIC_KEY": "",
+    "DISCORD_BOT_TOKEN": "",
+    "GUILD_ID": ""
+}
+```
+`GUILD_ID` is the respective Server ID of the community server that the bot was invited to.
 
 ### Replit
 
