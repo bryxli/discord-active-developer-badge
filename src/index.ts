@@ -1,7 +1,8 @@
 import dotenv from 'dotenv';
-import { AnyRequestData, SlashCreator, GatewayServer } from 'slash-create';
+import { AnyRequestData, GatewayServer, SlashCreator } from 'slash-create';
 import Eris from 'eris';
 import AboutCommand from './about';
+import express from 'express';
 
 dotenv.config({ path: '.env' });
 
@@ -29,4 +30,15 @@ client.connect();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}#${client.user.discriminator}`);
   client.editStatus('idle', { name: '/about', type: 0 });
+});
+
+const app = express();
+const port = 3000;
+
+app.get('/', (req: express.Request, res: express.Response) => {
+  res.send('uptimerobot');
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
 });
