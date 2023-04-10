@@ -1,4 +1,4 @@
-# Discord Active Developer Badge <img src="public/badge.svg" width="35" height="35">
+# Discord Active Developer Badge <img src="public/badge.svg" width="40" height="40">
 
 Simple Discord bot to get the Discord "Active Developer Badge" and maintain eligibility.
 
