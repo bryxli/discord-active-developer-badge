@@ -1,12 +1,12 @@
 import dotenv from 'dotenv';
 import { AnyRequestData, GatewayServer, SlashCreator } from 'slash-create';
-import Eris from 'eris';
+import { Client } from 'eris';
 import AboutCommand from './about';
-import express from 'express';
+import express, { Request, Response } from 'express';
 
 dotenv.config({ path: '.env' });
 
-const client = new Eris.Client(process.env.DISCORD_BOT_TOKEN);
+const client = new Client(process.env.DISCORD_BOT_TOKEN);
 const creator = new SlashCreator({
   applicationID: process.env.DISCORD_APP_ID,
   publicKey: process.env.DISCORD_PUBLIC_KEY,
@@ -35,7 +35,7 @@ client.on('ready', () => {
 const app = express();
 const port = 3000;
 
-app.get('/', (req: express.Request, res: express.Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('uptimerobot');
 });
 
