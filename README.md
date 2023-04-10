@@ -102,6 +102,12 @@ You should have already invited the bot to your **community** server from earlie
 
 ![Interaction](public/interaction.png)
 
+The bot status will automatically change depending on whether the command needs to be sent again. The bot will also remind you after 30 days.
+
+![DND](public/need_to_run.png) ![Idle](public/idle.png)
+
+![Reminder](public/message.png)
+
 ### Claiming
 
 Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
