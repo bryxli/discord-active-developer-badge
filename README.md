@@ -1,10 +1,20 @@
-# Discord Active Developer Badge Bot
+<div style="display: flex; align-items: center;">
+  <img src="public/badge.svg" width="75" height="75">
+  <span style="font-size: 2.5em">Discord Active Developer Badge Bot</span>
+  <img src="public/badge.svg" width="75" height="75">
+</div>
 
 Simple Discord bot to get the Discord "Active Developer Badge" and maintain eligibility.
 
+---
+
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The Discord Active Developer Badge is a badge on your Discord profile recognizing you for being an active developer.
+
+One condition to maintain this badge is that the bot must be interacted with at least once a month. This bot provides a fast and easy way to get the badge and keep the Discord bot running 24/7 to easily re-run the command every month.
+
+There is no programming required to set this up. Simply create the bot and host it on Replit using the pre-written code in this repository.
 
 ## Getting Started
 
