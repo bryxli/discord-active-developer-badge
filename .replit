@@ -1,3 +1,0 @@
-run = "npm run start"
-
-exclude_paths=public/
