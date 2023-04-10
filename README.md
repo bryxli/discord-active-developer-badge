@@ -1,12 +1,7 @@
-<div style="display: flex; align-items: center;">
-  <img src="public/badge.svg" style="margin-right: 10px;" width="30" height="30">
-  <span><h2 style="font-size: 2em">Discord Active Developer Badge Bot</h2></span>
-  <img src="public/badge.svg" style="margin-left: 10px;" width="30" height="30">
-</div>
-
----
+# Discord Active Developer Badge Bot <img src="public/badge.svg" width="35" height="35">
 
 Simple Discord bot to get the Discord "Active Developer Badge" and maintain eligibility.
+
 
 ## Description
 
