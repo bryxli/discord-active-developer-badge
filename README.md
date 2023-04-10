@@ -1,29 +1,63 @@
-# slash-create-template in TypeScript
-This templates helps you in creating slash commands in TypeScript from a webserver.
+# Discord Active Developer Badge Bot
 
-| [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Snazzah/slash-create-template/tree/typescript) | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/GL2qbv?referralCode=snazzah) |
-|:-:|:-:|
+Simple Discord bot to get the Discord "Active Developer Badge" and maintain eligibility.
 
-## Installation
-```sh
-npx slash-up init typescript slash-commands
-cd slash-commands
-# edit variables in the ".env" file!
-# Create and edit commands in the `commands` folder
-npx slash-up sync
-yarn build
-yarn start
-```
+## Description
 
-### From Railway/Heroku
-For Railway and Heroku users, you must sync commands locally to push any command changes to Discord. You can do this by using `slash-up sync` within your Git repository.
+An in-depth paragraph about your project and overview of use.
 
-Heroku users will have their commands synced when they initially deploy to Heroku.
+## Getting Started
 
-### Using PM2
-```sh
-npm i -g pm2
-# Follow the installation process above
-pm2 start pm2.json
-pm2 dump # recommended
-```
+### Prerequisites
+
+* Discord Application
+* Replit account
+* UptimeRobot account
+
+### Instructions
+
+1. Create a new Repl on [Replit](https://replit.com/)
+
+    ![Create](public/create_repl.png)
+
+2. Import the Repl code from GitHub
+
+    ![Import](public/import_from_github.png)
+
+3. Enter `github.com/bryxli/discord-active-developer-badge` as GitHub URL
+
+    ![GitHubURL](public/enter_github_url.png)
+
+4. Click Import from GitHub
+
+5. Replit will now ask for the command to run the bot, keeping the default of `npm run start` is okay.
+
+    ![Configure](public/configure_run.png)
+
+6. Just to make sure everything was set up properly run `yarn`
+
+    ![Dependencies](public/dependencies.png)
+
+7. Create a new secret using the Secrets tool
+
+    ![Secret](public/secrets.png)
+
+8. Enter secret information using [raw JSON](/secret.json)
+
+    ![JSON](public/json.png)
+
+9. Run the bot
+
+    ![Run](public/run.png)
+
+10. Create a new monitor on [UptimeRobot](https://uptimerobot.com/dashboard?ref=website-header#mainDashboard)
+
+    ![Monitor](public/new_monitor.png)
+
+    The URL can be found on Replit after running the bot in Webview
+
+    ![URL](public/webview.png)
+
+11. Claim the Active Developer Badge [here](https://discord.com/developers/active-developer). It can take up to 24 hours for the application to be considered active.
+
+    ![Claimed](public/claimed.png)
