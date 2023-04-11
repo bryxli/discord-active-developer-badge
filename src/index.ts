@@ -29,7 +29,7 @@ client.connect();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}#${client.user.discriminator}`);
-  client.editStatus('dnd', { name: 'need to run /about', type: 0 });
+  client.editStatus('idle', { name: '/about', type: 0 });
 });
 
 const app = express();

@@ -21,13 +21,13 @@ export default class AboutCommand extends SlashCommand {
     const futureDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000);
 
     this.scheduledJob = schedule.scheduleJob(futureDate, async () => {
-      this.creator.options.client.editStatus('dnd', { name: 'need to run /about', type: 0 });
+      // this.creator.options.client.editStatus('dnd', { name: 'need to run /about', type: 0 });
       await ctx.send({
         content: `Hey <@${user.id}>, it has been 30 days since you last ran /about! Make sure to run the command in order to maintain eligibility for the badge.`
       });
     });
 
-    this.creator.options.client.editStatus('idle', { name: '/about', type: 0 });
+    // this.creator.options.client.editStatus('idle', { name: '/about', type: 0 });
     await ctx.send('Run this command every 30 days to ensure that your Discord account maintains eligibility.');
   }
 }
