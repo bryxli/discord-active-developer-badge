@@ -42,8 +42,7 @@ Write down the application ID, public key, and bot token. You will need these la
 {
     "DISCORD_APP_ID": "",
     "DISCORD_PUBLIC_KEY": "",
-    "DISCORD_BOT_TOKEN": "",
-    "GUILD_ID": ""
+    "DISCORD_BOT_TOKEN": ""
 }
 ```
 `GUILD_ID` is the respective Server ID of the community server that the bot was invited to.
@@ -83,6 +82,8 @@ Write down the application ID, public key, and bot token. You will need these la
 9. Run the bot.
 
     ![Run](public/run.png)
+
+    Note: It can take up to an hour for the command to become available.
 
 ### UptimeRobot
 
