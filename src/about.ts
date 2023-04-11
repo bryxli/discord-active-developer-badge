@@ -7,8 +7,7 @@ export default class AboutCommand extends SlashCommand {
   constructor(creator: SlashCreator) {
     super(creator, {
       name: 'about',
-      description: 'display bot information',
-      guildIDs: [process.env.GUILD_ID]
+      description: 'display bot information'
     });
   }
 
