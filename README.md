@@ -45,7 +45,6 @@ Write down the application ID, public key, and bot token. You will need these la
     "DISCORD_BOT_TOKEN": ""
 }
 ```
-`GUILD_ID` is the respective Server ID of the community server that the bot was invited to.
 
 ### Replit
 
